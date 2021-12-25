@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Sirking1991\LaravelXeroConnector\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelXeroConnectorCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-xero-connector';
 
     public $description = 'My command';
 

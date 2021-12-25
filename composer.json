@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "sirking1991/laravel-xero-connector",
+    "description": "Laravel Xero Connector",
     "keywords": [
-        ":vendor_name",
+        "sirking1991",
         "laravel",
-        ":package_slug"
+        "laravel-xero-connector"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/sirking1991/laravel-xero-connector",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Sherwin",
+            "email": "sirking1991@gmail.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Sirking1991\\LaravelXeroConnector\\": "src",
+            "Sirking1991\\LaravelXeroConnector\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Sirking1991\\LaravelXeroConnector\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Sirking1991\\LaravelXeroConnector\\LaravelXeroConnectorServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelXeroConnector": "Sirking1991\\LaravelXeroConnector\\Facades\\LaravelXeroConnector"
             }
         }
     },
