@@ -2,9 +2,9 @@
 
 namespace Sirking1991\LaravelXeroConnector;
 
+use Sirking1991\LaravelXeroConnector\Commands\LaravelXeroConnectorCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Sirking1991\LaravelXeroConnector\Commands\LaravelXeroConnectorCommand;
 
 class LaravelXeroConnectorServiceProvider extends PackageServiceProvider
 {
